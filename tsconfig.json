@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Or "esnext" if you prefer modern JS features
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true, // Allow JavaScript files in your project (if any)
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true, // Enable strict type checking (recommended)
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext", // Or "commonjs" if you are using CommonJS modules
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true, // Don't compile TypeScript to JavaScript (create-react-app handles this)
+    "jsx": "react-jsx", // Use React's JSX transform
+    "baseUrl": "./src" // Or just "./" if you prefer
+  },
+  "include": [
+    "src" // Include all TypeScript files in the src directory
+  ]
+}
