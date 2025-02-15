@@ -2,8 +2,8 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { Driver, DriverStanding, FormState, ErrorResponse } from "./types";
 const baseURL = process.env.REACT_APP_BASE_URL;
-const DRIVERS_API_URL = `${baseURL}driversw/`;
-const STANDINGS_API_URL = `${baseURL}driverstandingws/`;
+const DRIVERS_API_URL = `${baseURL}drivers/`;
+const STANDINGS_API_URL = `${baseURL}driverstandings/`;
 
 const initialState: FormState = {
   step: 1,

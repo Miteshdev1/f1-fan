@@ -50,9 +50,9 @@ npm or yarn
 
 Clone the repository
 
-### `git clone https://github.com/yourusername/f1-fan-profile.git`
+### `git clone https://github.com/Miteshdev1/f1-fan.git`
 
-### `cd f1-fan-profile`
+### `cd f1-fan`
 
 Install dependencies
 
@@ -125,5 +125,5 @@ This project is open-source under the MIT License.
 
 For any issues or contributions, please contact:
 
-1. gitHub : yourusername
-2. Email : your.email@example.com
+1. gitHub : Miteshdev1
+2. Email : mitesh.kavar@alphaved.com
